@@ -31,6 +31,5 @@ public class MyServlet extends HttpServlet {
         out.println("<a href='/page'>Go back!</a>");
         out.println("</body>");
         out.println("</html>");
-        //req.getRequestDispatcher(index).forward(req, resp);
     }
 }
